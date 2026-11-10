@@ -13,3 +13,10 @@ def get_total(expenses):
 
 
 print("Всего расходов:", get_total(expenses))
+
+
+def get_max_expense(expenses):
+    return max(
+        expense["amount"]
+        for expense in expenses
+        )
