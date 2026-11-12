@@ -24,3 +24,7 @@ def get_max_expense(expenses):
 
 def average(expenses):
     return sum([e["amount"] for e in expenses]) / len(expenses)
+
+
+def minimum(expenses):
+    return min([e["amount"] for e in expenses])
