@@ -20,3 +20,7 @@ def get_max_expense(expenses):
         expense["amount"]
         for expense in expenses
         )
+
+
+def average(expenses):
+    return sum([e["amount"] for e in expenses]) / len(expenses)
